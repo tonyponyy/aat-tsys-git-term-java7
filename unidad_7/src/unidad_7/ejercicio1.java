@@ -21,7 +21,7 @@ public class ejercicio1 {
 		 while (nombres.hasMoreElements()) {
 	            String nombre = nombres.nextElement();
 	            Float nota = notas.get(nombre);
-	            System.out.println("Nombre: " + nombre + ", Nota media: " + nota);
+	            System.out.println("Nombre: " + nombre + ", Nota media: " + (nota/n1.length);
 		 }
 		 
 	}
